@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import State from './component/State'
 import {useState} from 'react'
+import Box from './component/Box'
 
 function App() {
   // State라는것에 반응하기 때문에 react
@@ -53,6 +54,7 @@ function App() {
       {/* <State/> */}
       <h1>{count}</h1>
       <button onClick={increase}>+1</button>
+      <Box/>
     </div>
   );
 }
